@@ -29,7 +29,7 @@ const Gallery = () => {
     },
     {
       title: "Advanced Interface",
-      image: "https://images.pexels.com/photos/163117/circuit-circuit-board-resistor-computer-163117.jpeg?auto=compress&cs=tinysrgb&w=800",
+      image: "https://images.pexels.com/photos/373543/pexels-photo-373543.jpeg?auto=compress&cs=tinysrgb&w=800",
       description: "Intuitive controls meet cutting-edge technology"
     },
     {
