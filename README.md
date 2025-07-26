@@ -20,8 +20,8 @@ This project is a visually stunning and fully responsive landing page for a next
 ## Installation
 1. **Clone the repository:**
    ```bash
-   git clone <repository-url>
-   cd <project-folder>
+   git clone https://github.com/isamch/Futuristic-Smartwatch-Landing-Page-NEXUS-The-Future-of-Wearable-Technology.git
+   cd Futuristic-Smartwatch-Landing-Page-NEXUS-The-Future-of-Wearable-Technology.git
    ```
 2. **Install dependencies:**
    ```bash
@@ -40,4 +40,3 @@ This project is a visually stunning and fully responsive landing page for a next
 
 ---
 
-Feel free to customize the content, images, and styles to fit your own smartwatch concept or product idea! 
