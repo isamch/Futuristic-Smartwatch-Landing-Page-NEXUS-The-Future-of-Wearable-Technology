@@ -1,4 +1,4 @@
-import React, { useEffect, useRef } from 'react';
+import { useRef, useEffect } from 'react';
 import { ChevronDown, Play } from 'lucide-react';
 
 const Hero = () => {
@@ -20,7 +20,6 @@ const Hero = () => {
 
   return (
     <section ref={heroRef} className="relative min-h-screen flex items-center justify-center overflow-hidden">
-      {/* Animated Background */}
       <div className="absolute inset-0 bg-gradient-to-br from-slate-900 via-purple-900 to-slate-900">
         <div ref={shapeRef} className="absolute inset-0">
           <svg className="absolute top-0 left-0 w-full h-full" viewBox="0 0 1000 1000">
@@ -41,7 +40,6 @@ const Hero = () => {
         </div>
       </div>
 
-      {/* Content */}
       <div className="relative z-10 text-center px-4 max-w-6xl mx-auto">
         <div className="animate-fadeInUp">
           <h1 className="text-5xl md:text-7xl lg:text-8xl font-bold mb-6 bg-gradient-to-r from-white via-cyan-400 to-purple-400 bg-clip-text text-transparent">

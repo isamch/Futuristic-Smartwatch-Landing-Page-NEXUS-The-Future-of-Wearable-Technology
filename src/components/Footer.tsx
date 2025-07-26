@@ -1,4 +1,4 @@
-import React from 'react';
+
 import { Mail, Phone, MapPin, Twitter, Instagram, Youtube } from 'lucide-react';
 
 const Footer = () => {
@@ -6,7 +6,6 @@ const Footer = () => {
     <footer className="bg-slate-800 py-16 px-4 border-t border-slate-700">
       <div className="max-w-7xl mx-auto">
         <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
-          {/* Brand */}
           <div className="col-span-1 md:col-span-2">
             <h3 className="text-3xl font-bold mb-4 bg-gradient-to-r from-cyan-400 to-purple-400 bg-clip-text text-transparent">
               NEXUS
@@ -28,7 +27,6 @@ const Footer = () => {
             </div>
           </div>
 
-          {/* Quick Links */}
           <div>
             <h4 className="text-xl font-semibold mb-4 text-white">Quick Links</h4>
             <ul className="space-y-2">
@@ -39,7 +37,6 @@ const Footer = () => {
             </ul>
           </div>
 
-          {/* Contact */}
           <div>
             <h4 className="text-xl font-semibold mb-4 text-white">Contact</h4>
             <ul className="space-y-2">

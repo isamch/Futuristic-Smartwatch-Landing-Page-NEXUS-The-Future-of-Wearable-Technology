@@ -1,4 +1,4 @@
-import React, { useEffect, useRef } from 'react';
+import { useEffect, useRef } from 'react';
 
 const Gallery = () => {
   const sectionRef = useRef<HTMLDivElement>(null);
@@ -80,10 +80,8 @@ const Gallery = () => {
                   className="w-full h-full object-cover opacity-60 group-hover:opacity-80 transition-opacity duration-300"
                 />
                 
-                {/* Overlay */}
                 <div className="absolute inset-0 bg-gradient-to-t from-slate-900/80 to-transparent"></div>
                 
-                {/* Content */}
                 <div className="absolute bottom-0 left-0 right-0 p-6">
                   <h3 className="text-2xl font-bold mb-2 text-white group-hover:text-cyan-400 transition-colors duration-300">
                     {item.title}
@@ -93,7 +91,6 @@ const Gallery = () => {
                   </p>
                 </div>
                 
-                {/* Hover Effect */}
                 <div className="absolute inset-0 bg-gradient-to-r from-cyan-500/10 to-purple-500/10 opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
               </div>
             </div>

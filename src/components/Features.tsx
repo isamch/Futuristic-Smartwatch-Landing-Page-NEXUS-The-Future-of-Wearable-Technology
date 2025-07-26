@@ -1,4 +1,4 @@
-import React, { useEffect, useRef } from 'react';
+import { useEffect, useRef } from 'react';
 import { Brain, Zap, Shield, Heart, Smartphone, Globe } from 'lucide-react';
 
 const Features = () => {
@@ -50,20 +50,20 @@ const Features = () => {
     },
     {
       icon: Globe,
-      title: "Universal Connectivity",
-      description: "Seamless integration with IoT devices, smart cities, and global communication networks."
+      title: "Global Connectivity",
+      description: "Seamless integration with satellite networks for worldwide coverage."
     }
   ];
 
   return (
-    <section ref={sectionRef} className="py-20 px-4 bg-gradient-to-b from-slate-900 to-slate-800">
+    <section ref={sectionRef} className="py-20 px-4 bg-slate-900">
       <div className="max-w-7xl mx-auto">
         <div className="text-center mb-16">
-          <h2 className="text-4xl md:text-6xl font-bold mb-6 bg-gradient-to-r from-cyan-400 to-purple-400 bg-clip-text text-transparent">
-            Revolutionary Features
+          <h2 className="text-4xl md:text-6xl font-bold mb-6 bg-gradient-to-r from-white via-cyan-400 to-purple-400 bg-clip-text text-transparent">
+            Advanced Features
           </h2>
-          <p className="text-xl text-gray-300 max-w-3xl mx-auto">
-            Every component engineered to perfection, every feature designed to enhance your life
+          <p className="text-xl text-gray-400 max-w-2xl mx-auto">
+            Experience the future of wearable technology with our cutting-edge features.
           </p>
         </div>
 
@@ -71,17 +71,10 @@ const Features = () => {
           {features.map((feature, index) => (
             <div
               key={index}
-              className="feature-card group relative bg-gradient-to-br from-slate-800 to-slate-900 p-8 rounded-2xl border border-slate-700 hover:border-cyan-400/50 transition-all duration-500 hover:transform hover:scale-105 hover:shadow-2xl hover:shadow-cyan-500/20"
-              style={{ animationDelay: `${index * 0.1}s` }}
+              className="feature-card p-8 bg-slate-800 rounded-2xl border border-slate-700 hover:border-cyan-400 transition-all duration-300"
             >
-              <div className="relative">
-                <div className="w-16 h-16 bg-gradient-to-br from-cyan-400 to-purple-500 rounded-xl flex items-center justify-center mb-6 group-hover:scale-110 transition-transform duration-300">
-                  <feature.icon className="w-8 h-8 text-white" />
-                </div>
-                
-                <h3 className="text-2xl font-bold mb-4 text-white group-hover:text-cyan-400 transition-colors duration-300">
-                  {feature.title}
-                </h3>
+              <div className="mb-6">
+                <feature.icon className="w-12 h-12 mx-auto text-cyan-400" />
                 
                 <p className="text-gray-400 group-hover:text-gray-300 transition-colors duration-300">
                   {feature.description}

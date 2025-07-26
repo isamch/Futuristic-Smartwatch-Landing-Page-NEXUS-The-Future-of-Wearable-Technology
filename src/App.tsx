@@ -8,7 +8,6 @@ import Footer from './components/Footer';
 
 function App() {
   useEffect(() => {
-    // Smooth scrolling for anchor links
     const links = document.querySelectorAll('a[href^="#"]');
     links.forEach(link => {
       link.addEventListener('click', (e) => {
